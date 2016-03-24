@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" restorationIdentifier="ShareView" id="iN0-l3-epB" customClass="ShareView">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FkG-SL-IlL">
+                    <rect key="frame" x="161" y="410" width="60" height="60"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="60" id="KqD-Iy-P69"/>
+                        <constraint firstAttribute="height" constant="60" id="zpK-yd-Mdo"/>
+                    </constraints>
+                    <state key="normal" backgroundImage="share_email"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CJM-eS-vP6">
+                    <rect key="frame" x="305" y="332" width="60" height="60"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="60" id="Fte-mG-Lif"/>
+                        <constraint firstAttribute="height" constant="60" id="mfv-rT-pwg"/>
+                    </constraints>
+                    <state key="normal" backgroundImage="share_qq"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tqz-te-eKH">
+                    <rect key="frame" x="161" y="332" width="60" height="60"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="60" id="mUH-Ya-ijb"/>
+                        <constraint firstAttribute="width" constant="60" id="vjf-Vp-22Y"/>
+                    </constraints>
+                    <state key="normal" backgroundImage="share_wx"/>
+                </button>
+                <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wg3-5X-NbT">
+                    <rect key="frame" x="279" y="289" width="42" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="Xpx-rS-Rhk"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kiz-dX-1Mx">
+                    <rect key="frame" x="229" y="332" width="60" height="60"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="60" id="aH6-sq-ytq"/>
+                        <constraint firstAttribute="height" constant="60" id="rLN-8B-hpg"/>
+                    </constraints>
+                    <state key="normal" backgroundImage="share_wx_timeline"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3vv-1o-2yh">
+                    <rect key="frame" x="382" y="332" width="60" height="60"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="60" id="lJg-3i-Ujb"/>
+                        <constraint firstAttribute="height" constant="60" id="yC9-pA-TZy"/>
+                    </constraints>
+                    <state key="normal" backgroundImage="share_sina"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B0x-p1-zqR">
+                    <rect key="frame" x="241" y="410" width="60" height="60"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="60" id="93r-PV-gE1"/>
+                        <constraint firstAttribute="height" constant="60" id="FbS-Ye-KFn"/>
+                    </constraints>
+                    <state key="normal" backgroundImage="share_twrite"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.85490196078431369" green="0.85490196078431369" blue="0.85490196078431369" alpha="0.5" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="Wg3-5X-NbT" firstAttribute="leading" secondItem="B0x-p1-zqR" secondAttribute="trailing" constant="-22" id="15P-tg-mLk"/>
+                <constraint firstItem="B0x-p1-zqR" firstAttribute="top" secondItem="Wg3-5X-NbT" secondAttribute="bottom" constant="100" id="DeH-w0-zIk"/>
+                <constraint firstItem="Wg3-5X-NbT" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="Hsg-nE-kFn"/>
+                <constraint firstItem="Wg3-5X-NbT" firstAttribute="leading" secondItem="FkG-SL-IlL" secondAttribute="trailing" constant="58" id="I4J-bS-3DG"/>
+                <constraint firstItem="3vv-1o-2yh" firstAttribute="leading" secondItem="Wg3-5X-NbT" secondAttribute="trailing" constant="61" id="ITn-IS-53k"/>
+                <constraint firstItem="FkG-SL-IlL" firstAttribute="top" secondItem="Wg3-5X-NbT" secondAttribute="bottom" constant="100" id="LCd-yN-m27"/>
+                <constraint firstItem="Wg3-5X-NbT" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="PH0-lk-2xX"/>
+                <constraint firstItem="CJM-eS-vP6" firstAttribute="leading" secondItem="Wg3-5X-NbT" secondAttribute="trailing" constant="-16" id="TNP-4y-3q1"/>
+                <constraint firstItem="3vv-1o-2yh" firstAttribute="top" secondItem="Wg3-5X-NbT" secondAttribute="bottom" constant="22" id="VlN-Em-kN1"/>
+                <constraint firstItem="CJM-eS-vP6" firstAttribute="top" secondItem="Wg3-5X-NbT" secondAttribute="bottom" constant="22" id="agd-pw-6Tf"/>
+                <constraint firstItem="kiz-dX-1Mx" firstAttribute="top" secondItem="Wg3-5X-NbT" secondAttribute="bottom" constant="22" id="gvI-xk-QvU"/>
+                <constraint firstItem="Wg3-5X-NbT" firstAttribute="leading" secondItem="Tqz-te-eKH" secondAttribute="trailing" constant="58" id="tBv-sh-Wsy"/>
+                <constraint firstItem="Tqz-te-eKH" firstAttribute="top" secondItem="Wg3-5X-NbT" secondAttribute="bottom" constant="22" id="vcj-y7-GE2"/>
+                <constraint firstItem="Wg3-5X-NbT" firstAttribute="leading" secondItem="kiz-dX-1Mx" secondAttribute="trailing" constant="-10" id="xGN-sX-HBN"/>
+            </constraints>
+        </view>
+    </objects>
+    <resources>
+        <image name="share_email" width="58" height="58"/>
+        <image name="share_qq" width="58" height="58"/>
+        <image name="share_sina" width="58" height="58"/>
+        <image name="share_twrite" width="58" height="58"/>
+        <image name="share_wx" width="58" height="58"/>
+        <image name="share_wx_timeline" width="58" height="58"/>
+    </resources>
+</document>
